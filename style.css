@@ -1,0 +1,276 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+body a{
+    text-decoration: none;
+}
+body img:hover{
+    transform: scale(1.04);
+}
+header{
+    background: url("img/Image.png") no-repeat;
+    background-size: cover ;
+    height: 962px;
+}
+.for__top{
+    display: flex;
+    align-items: center;
+    padding-top: 62px;
+}
+.for__top ul{
+    padding-left: 640px;
+    display: flex;
+    list-style: none;
+}
+.for__top li{
+    padding-left: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.for__top a{
+     color: white;
+ }
+.for__top a:hover{
+    color: darkblue;
+    cursor: help;
+}
+.title{
+    padding-top: 220px;
+}
+.title h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+.subtitle{
+    margin: 30px 0;
+}
+.subtitle p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.for__input{
+    display: flex;
+    align-items: center;
+}
+.for__input input{
+    border: 0;
+    background: transparent url("img/Oval.png") no-repeat;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.for__input::placeholder{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+.for__input button{
+    text-transform: uppercase;
+    padding: 15px 39px;
+    border: none;
+    color: white;
+    background: #1B7DFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.odigi{
+    z-index: 1;
+    position: absolute;
+    top: 105%;
+    left: 9%;
+    background: #FFFF;
+    height: 655px;
+    width: 1262px;
+    border: 1px solid whitesmoke;
+}
+.company{
+    padding-top: 62px;
+    height: 300px;
+}
+.company h3{
+    color: #102746;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+.welcome{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sec{
+    padding-top: 8px;
+}
+.for__in__col img {
+    margin-bottom: 37px;
+}
+.for__in__col h3{
+    margin-bottom: 26px;
+}
+.trip{
+    height: 1335px;
+    padding-top: 600px;
+}
+.get{
+    display: flex;
+    align-items: center;
+}
+.zae{
+    padding-left: 640px;
+}
+.for__all__pages{
+    position: relative;
+}
+.mount{
+    position: absolute;
+    top: 79%;
+    left: 3%;
+}
+.kioto{
+    position: absolute;
+    top: 0;
+    left: 49%;
+}
+.KIOTO{
+    position: absolute;
+    top: 80%;
+    left: 52%;
+}
+.tokyo{
+    position: absolute;
+    top: 91%;
+    left: 0;
+}
+.TOKYO{
+    position: absolute;
+    top: 154%;
+    left: 2%;
+}
+.niggata{
+    position: absolute;
+    top: 91%;
+    left: 33.1%;
+}
+.NIGGATA{
+    position: absolute;
+    top: 154%;
+    left: 36%;
+}
+.saporro{
+    position: absolute;
+    top: 91%;
+    left: 66%;
+}
+.SAPPORO{
+    position: absolute;
+    top: 155%;
+    left: 69%;
+}
+.perfecture{
+    padding-top: 100px;
+    height: 785px;
+}
+.first-box{
+    display: flex;
+}
+.right h3{
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.right p{
+    padding-left: 100px;
+    margin: 100px 0;
+}
+.right a{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.right img{
+    margin: 0 0 0 35px;
+}
+.second-box{
+    display: flex;
+}
+.right__2 h3{
+    padding-top: 160px;
+}
+.right__2 p{
+    margin: 100px 0;
+}
+.right__2 a{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.right__2 img{
+    margin: 0 0 0 35px;
+}
+.left_2{
+    padding-top: 130px;
+    padding-left: 100px;
+}
+.timeToVisit{
+    height: 1292px;
+    padding-top: 300px;
+}
+.timeToVisit{
+    position: relative;
+}
+.place{
+    padding-top: 100px;
+}
+.place h3{
+    margin: 50px 0  ;
+}
+.place button{
+    padding: 12px 19px;
+    background: #006DFE;
+    color: white;
+    border: 0;
+}
+.video{
+    padding-top: 600px;
+    position: relative;
+
+}
+.for__video{
+    height: 620px;
+    background: url("img/the_end.png") no-repeat;
+    background-size: cover;
+}
+.button{
+    position: relative;
+    top: 45%;
+    left: 50%;
+}
+.all_back{
+    height: 370px;
+    background-color: #0E1D28;
+}
+footer img{
+    padding-top: 119px;
+}
+.for__all_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.for__all_2 ul{
+    list-style: none;
+    padding-top: 100px;
+}
+.for__all_2 li{
+    color: white;
+}
